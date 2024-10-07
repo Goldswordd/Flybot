@@ -1,0 +1,40 @@
+name: bulebule
+channels:
+  - conda-forge
+  - cadquery
+dependencies:
+  - python=3.8
+  - cadquery=2.1
+  - pip
+  - pip:
+    - bokeh
+    - cffi
+    - cufflinks
+    - dataclasses
+    - osbrain
+    - matplotlib
+    - mmsim
+    - notebook
+    - numpy
+    - pandas
+    #- pybluez
+    - pyqt5
+    - pyqtgraph
+    - pyserial
+    - pyyaml
+    - pyzmq
+    - scipy
+    # Test
+    - pytest
+    # Lint
+    - black
+    - flake8
+    - flake8-quotes
+    # Documentation
+    - doc8
+    - sphinx
+    - sphinxcadquery
+    - sphinxembeddedvideos
+    - sphinxemoji
+    # Development
+    - pdbpp
