@@ -6,8 +6,9 @@ Flybot is small Micromouse robotic vehicle designed to navigate its way through 
 
 ![PCB preview](PCB/FlybotPCB.jpg)
 
-#Developer GUIDE
-##Enviroment SETUP
+# Developer GUIDE
+## Enviroment SETUP
+
 The various software and components needed to program the board are as follows:
 - STM32CubeIDE (IDE)
 - STM32 ST-LINK Utility (Used to upload .hex file onto board)
